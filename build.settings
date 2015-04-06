@@ -4,8 +4,7 @@
 settings = {
 	
 	orientation = {
-		default = "portrait",
-		supported = { "portrait", "landscape" }
+		default = "portrait"
 	},
 	
 	iphone = {

@@ -53,6 +53,7 @@ local incentivizedAdButton = widget.newButton {
     label = "a video should",
     labelColor = { default={ 255, 255, 255, 1.0 }, over={ 0, 0, 0, 0.5 } },
     fontSize = 36,
+    isEnabled = false,
     x = _W / 2,
     y = _H / 2 + 40
 }
@@ -76,6 +77,7 @@ local customAdButton = widget.newButton {
     label = "be ready soon!",
     labelColor = { default={ 255, 255, 255, 1.0 }, over={ 0, 0, 0, 0.5 } },
     fontSize = 36,
+    isEnabled = false,
     x = _W / 2,
     y = _H / 1.2 + 45
 }
